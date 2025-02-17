@@ -1,8 +1,8 @@
 package cgolz4
 
 // #cgo CFLAGS: -O3 -Wno-deprecated-declarations
-// #include "lz4/lib/lz4.h"
-// #include "lz4/lib/lz4.c"
+// #include "src/lz4.h"
+// #include "src/lz4.c"
 import "C"
 import (
 	"fmt"
